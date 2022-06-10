@@ -8,16 +8,16 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "hobby"
+      "size": "standard-1x"
     },
     "worker": {
       "quantity": 1,
-      "size": "hobby"
+      "size": "standard-1x"
     }
   },
   "image": "heroku/python",
   "addons": [
-    "heroku-postgresql"
+    "heroku-postgresql:standard-0"
   ],
   "env": {
     "ACCOUNT_EMAIL": {
