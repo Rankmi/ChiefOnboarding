@@ -29,7 +29,7 @@ See details here: [ChiefOnboarding on Docker Hub](https://hub.docker.com/r/chief
 
 **Heroku**
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rankmi/ChiefOnboarding/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rankmi/ChiefOnboarding/tree/deploy)
 
 **Render**
 
