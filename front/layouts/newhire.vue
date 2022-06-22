@@ -8,8 +8,7 @@
       :color="$store.state.baseInfo.org.base_color"
       absolute
       class="top-bar"
-      dark
-    >
+      dark>
       <img :src="$store.state.baseInfo.org.logo" style="max-height: 40px; max-width: 100px; margin-right: 20px;">
 
       <v-toolbar-title>Hi {{ $store.state.baseInfo.new_hire.first_name }}!</v-toolbar-title>
