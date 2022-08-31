@@ -37,7 +37,7 @@
     "jquery": "^3.5.1",
     "md5": "^2.3.0",
     "moment": "^2.29.1",
-    "moment-timezone": "^0.5.33",
+    "moment-timezone": "^0.5.35",
     "mustache": "^4.1.0",
     "nuxt": "^2.15.2",
     "qrcode": "^1.4.4",
