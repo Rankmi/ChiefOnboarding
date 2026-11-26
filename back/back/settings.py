@@ -245,8 +245,10 @@ if env("POSTMARK_KEY", default="") != "":
     ANYMAIL = {"POSTMARK_SERVER_TOKEN": env("POSTMARK_KEY", default="")}
     EMAIL_BACKEND = "anymail.backends.postmark.EmailBackend"
 
-if env("SENDGRID_KEY", default="") != "":
-    ANYMAIL = {"SENDGRID_API_KEY": env("SENDGRID_KEY", default="")}
+# SENDGRID_KEY queda como respaldo mientras se renombra la variable en los entornos.
+SENDGRID_API_KEY = env("SENDGRID_API_KEY", default="") or env("SENDGRID_KEY", default="")
+if SENDGRID_API_KEY != "":
+    ANYMAIL = {"SENDGRID_API_KEY": SENDGRID_API_KEY}
     EMAIL_BACKEND = "anymail.backends.sendgrid.EmailBackend"
 
 if env("SENDINBLUE_KEY", default="") != "":
